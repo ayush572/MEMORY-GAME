@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 class="mem">💥 MEMORY GAME 💥</h1>
+  <div class="instruct">
+    
+    <br><br><br>
+    <h3>INSTRUCTIONS</h3>
+    <p>A random pattern for clicking over the buttons will be generated each </p><p>time the user passes a level, starting from LEVEL 0. The user has to remember the pattern
+      </p><p>from the beginning and click over the buttons as per the sequence, from the beginning of sequence.</p><br>
+    <p>
+      If the user fails, then he can start the game again if he wishes to...
+    </p>
+    <h2>HAPPY PLAYING 😃!</h2>
+  </div>
+  <h1 id="level-title">Press the button to start the game</h1>
+  <button type="button" class="btn btn-dark">start</button>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="button green">
+        
+      </div>
+
+      <div type="button" id="red" class="button red">
+        
+      </div>
+      </div>
+    <div class="row">
+      <div type="button" id="yellow" class="button yellow">
+        
+      </div>
+      <div type="button" id="blue" class="button blue">
+        
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
